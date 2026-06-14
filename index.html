@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ATRIUM Club — Zwettl</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<!-- NAV -->
+<header class="nav">
+  <a href="#top" class="nav-logo">
+    <img src="Atrium_Club_Transparent.webp" alt="ATRIUM Club" class="nav-logo-img">
+  </a>
+  <nav class="nav-links">
+    <a href="#next">Nächstes Event</a>
+    <a href="#booking">Location Mieten</a>
+    <a href="#history">History</a>
+    <a href="#cafe">Cafe Bar</a>
+    <a href="https://maps.app.goo.gl/k5fQPanVArkznnJS8" target="_blank">Anfahrt</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section id="top" class="hero">
+  <div class="hero-glow"></div>
+  <div class="hero-content">
+    <p class="eyebrow">Keller · Zwettl · seit jeher laut</p>
+    <div class="hero-logo-wrap">
+      <img
+        src="Atrium_Transparent.webp"
+        alt="ATRIUM Club"
+        class="hero-logo"
+      >
+    </div>
+    <p class="hero-text">Tiefschwarze Wände. Lauter Bass. Die Tür steht offen — komm runter.</p>
+    <div class="hero-cta">
+      <a href="#next" class="btn btn-primary">Nächstes Event ansehen</a>
+      <a href="#booking" class="btn btn-ghost">Location mieten</a>
+    </div>
+  </div>
+  <div class="scroll-cue">
+    <span>Runter scrollen</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- NEXT EVENT -->
+<section id="next" class="next-event">
+  <p class="eyebrow">Als nächstes im Club</p>
+  <div id="nextEventCard" class="next-card">
+    <!-- injected by JS -->
+  </div>
+</section>
+
+<!-- UPCOMING EVENTS GRID -->
+<section id="events" class="events">
+  <div class="section-head">
+    <h2>Kommende Events</h2>
+    <p>Klick auf ein Event für alle Infos. Klick auf das Poster für die große Ansicht.</p>
+  </div>
+  <div id="eventsGrid" class="events-grid">
+    <!-- injected by JS -->
+  </div>
+</section>
+
+<!-- BOOKING -->
+<section id="booking" class="booking">
+  <div class="booking-inner">
+    <div class="booking-text">
+      <p class="eyebrow">Eigene Veranstaltung</p>
+      <h2>Dein Event. Unsere Location.</h2>
+      <p>Der ATRIUM Club steht für private Partys, Geburtstage, Firmenfeiern und geschlossene Veranstaltungen zur Verfügung. Schwarze Wände, eigene Bar, volle PA &amp; Lichtanlage, Platz für deine Crowd.</p>
+      <ul class="booking-list">
+        <li>Eigene Bar &amp; Bedienung</li>
+        <li>DJ-Pult &amp; PA-Anlage inklusive</li>
+        <li>Licht- &amp; Nebeltechnik</li>
+        <li>Garderobe &amp; Sanitärbereich</li>
+      </ul>
+      <a href="mailto:mail@AtriumClub.at?subject=Anfrage%20Location%20mieten" class="btn btn-primary">Jetzt anfragen</a>
+    </div>
+    <div class="booking-visual" aria-hidden="true">
+      <div class="booking-grid-deco">
+        <span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HISTORY -->
+<section id="history" class="history">
+  <div class="section-head">
+    <h2>Event History</h2>
+    <p>Alle Nächte, die wir je hatten.</p>
+  </div>
+  <div id="historyGrid" class="history-grid">
+    <!-- injected by JS -->
+  </div>
+  <div class="history-footer" id="historyFooter" style="display:none;">
+    <button class="btn btn-ghost" id="historyToggle">Alle Events anzeigen</button>
+    <span class="history-count" id="historyCount"></span>
+  </div>
+</section>
+
+<!-- TRANSITION TO CAFE -->
+<section class="transition">
+  <div class="transition-stairs" aria-hidden="true">
+    <span></span><span></span><span></span><span></span><span></span>
+  </div>
+  <p class="transition-text">Der Club liegt im Keller. Eine Treppe höher, im Erdgeschoss, wartet die ATRIUM Cafe Bar.</p>
+</section>
+
+<!-- CAFE BAR -->
+<section id="cafe" class="cafe">
+  <div class="cafe-inner">
+    <p class="eyebrow eyebrow-light">Erdgeschoss</p>
+    <h2>ATRIUM Cafe Bar</h2>
+    <p>Tagsüber Kaffee, Frühstück und ruhige Atmosphäre — abends der perfekte Start in die Nacht, bevor es eine Treppe tiefer weitergeht. Direkt über dem Club, am Neuen Markt in Zwettl.</p>
+    <a href="https://www.atriumcafebar.at" target="_blank" rel="noopener" class="btn btn-light">atriumcafebar.at</a>
+  </div>
+</section>
+
+<!-- CONTACT / VISIT -->
+<section id="visit" class="visit">
+  <div class="visit-grid">
+    <div class="visit-block">
+      <p class="eyebrow">Adresse</p>
+      <p class="visit-value"><a href="https://maps.app.goo.gl/k5fQPanVArkznnJS8" target="_blank" rel="noopener">Neuer Markt 18<br>3910 Zwettl</a></p>
+    </div>
+    <div class="visit-block">
+      <p class="eyebrow">Kontakt</p>
+      <p class="visit-value"><a href="mailto:mail@AtriumClub.at">mail@AtriumClub.at</a><br><a href="tel:+4328222 0469">+43 2822 20469</a></p>
+    </div>
+    <div class="visit-block">
+      <p class="eyebrow">Öffnungszeiten</p>
+      <p class="visit-value">Veranstaltungsabhängig.<br>Infos auf Social Media.</p>
+    </div>
+    <div class="visit-block">
+      <p class="eyebrow">Social</p>
+      <p class="visit-value">
+        <a href="https://www.facebook.com/atrium.club.zwettl/" target="_blank" rel="noopener">Facebook</a><br>
+        <a href="https://www.instagram.com/atrium.club.zwettl/" target="_blank" rel="noopener">Instagram</a>
+      </p>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <span>© 2026 ATRIUM Club &amp; Cafe Bar, Zwettl</span>
+  <span class="footer-links"><a href="#">Startseite</a> · <a href="legal.html">Rechtliches</a></span>
+</footer>
+
+<!-- EVENT DETAIL MODAL -->
+<div id="eventModal" class="modal" aria-hidden="true">
+  <div class="modal-backdrop" data-close></div>
+  <div class="modal-panel" role="dialog" aria-modal="true">
+    <button class="modal-close" data-close aria-label="Schließen">&times;</button>
+    <div class="modal-body" id="modalBody">
+      <!-- injected by JS -->
+    </div>
+  </div>
+</div>
+
+<!-- POSTER LIGHTBOX -->
+<div id="lightbox" class="lightbox" aria-hidden="true">
+  <div class="lightbox-backdrop" data-close></div>
+  <button class="lightbox-close" data-close aria-label="Schließen">&times;</button>
+  <img id="lightboxImg" src="" alt="">
+</div>
+
+<script src="events.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
