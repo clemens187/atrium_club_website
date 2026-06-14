@@ -24,27 +24,27 @@
 
 const UPCOMING_EVENTS = [
   {
-    id: "2026-06-13-summer-dance-night",
-    title: "Summer Dance Night",
-    date: "13.06.2026",
-    dateSort: "2026-06-13",
+    id: "2026-06-27-italo-disco-night",
+    title: "Italo Disco Night",
+    date: "27.06.2026",
+    dateSort: "2026-06-27",
     time: "21:00 Uhr",
-    dj: "DJ Duschko",
-    tag: "Summer Party",
-    poster: "images/poster-placeholder-1.svg",
+    dj: "DJ NIKVANP.",
+    tag: "Italo Disco",
+    poster: "events/20260627_italodisco.webp",
     description: "Die Summer Dance Night eröffnet die warme Jahreszeit im ATRIUM. DJ Duschko sorgt ab 21:00 Uhr für sommerliche Party-Stimmung — von Charts über House bis zu den Sommerhits der letzten Jahre. Türen öffnen, Bass läuft, die Nacht ist lang. Schau unbedingt vorbei!",
     ticketLink: ""
   },
   {
-    id: "2026-07-04-friday-flashback",
-    title: "Friday Flashback",
-    date: "04.07.2026",
-    dateSort: "2026-07-04",
-    time: "22:00 Uhr",
-    dj: "DJ Resident",
+    id: "2026-08-18-zwettler-rasen-open",
+    title: "Zwettler Rasen Open",
+    date: "18.07.2026",
+    dateSort: "2026-07-18",
+    time: "21:00 Uhr",
+    dj: "DJ NIKVANP.",
     tag: "90s / 00s",
-    poster: "images/poster-placeholder-2.svg",
-    description: "Zurück in die Zukunft: Friday Flashback bringt die größten Hits der 90er und 2000er zurück auf die Tanzfläche. Ein Abend für alle, die wissen wollen, wie sich Nostalgie und Nebelmaschine kombinieren lassen.",
+    poster: "events/20260718_zwettler_rasen_open.webp",
+    description: "DJ Nik van P. bringt Urlaubsfeeling ab 21.00 Uhr ins ATRIUM! Einlass ab 20.00 Uhr - Eintritt FREI! Kommt und tanzt wie die jungen RÖMER!",
     ticketLink: ""
   }
 ];
