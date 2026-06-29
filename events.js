@@ -24,15 +24,15 @@
 
 const UPCOMING_EVENTS = [
   {
-    id: "2026-06-27-italo-disco-night",
-    title: "Italo Disco Night",
-    date: "27.06.2026",
-    dateSort: "2026-06-27",
+    id: "2026-07-11-disco-sommer-nacht",
+    title: "Disco Sommer Nacht",
+    date: "11.07.2026",
+    dateSort: "2026-07-11",
     time: "21:00 Uhr",
-    dj: "DJ NIKVANP.",
-    tag: "Italo Disco",
-    poster: "events/20260627_italodisco.webp",
-    description: "Die Summer Dance Night eröffnet die warme Jahreszeit im ATRIUM. DJ Duschko sorgt ab 21:00 Uhr für sommerliche Party-Stimmung — von Charts über House bis zu den Sommerhits der letzten Jahre. Türen öffnen, Bass läuft, die Nacht ist lang. Schau unbedingt vorbei!",
+    dj: "DJ SCHMUCKI",
+    tag: "Sommer Nacht",
+    poster: "events/20260711_disco_sommer_nacht.webp",
+    description: "Genieße am 11. Juli eine Disco Sommer Nacht wie du sie früher hattest! DJ DUSCHKO sorgt mit Sommer Hits für Stimmung🪩",
     ticketLink: ""
   },
   {
@@ -50,6 +50,18 @@ const UPCOMING_EVENTS = [
 ];
 
 const PAST_EVENTS = [
+  {
+    id: "2026-06-27-italo-disco-night",
+    title: "Italo Disco Night",
+    date: "27.06.2026",
+    dateSort: "2026-06-27",
+    time: "21:00 Uhr",
+    dj: "DJ NIKVANP.",
+    tag: "Italo Disco",
+    poster: "events/20260627_italodisco.webp",
+    description: "Die Summer Dance Night eröffnet die warme Jahreszeit im ATRIUM. DJ Duschko sorgt ab 21:00 Uhr für sommerliche Party-Stimmung — von Charts über House bis zu den Sommerhits der letzten Jahre. Türen öffnen, Bass läuft, die Nacht ist lang. Schau unbedingt vorbei!",
+    ticketLink: ""
+  },
   {
     id: "2026-06-13-summer-dance-night",
     title: "Summer Dance Night",
