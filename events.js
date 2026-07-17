@@ -24,18 +24,6 @@
 
 const UPCOMING_EVENTS = [
   {
-    id: "2026-07-11-disco-sommer-nacht",
-    title: "Disco Sommer Nacht",
-    date: "11.07.2026",
-    dateSort: "2026-07-11",
-    time: "21:00 Uhr",
-    dj: "DJ SCHMUCKI",
-    tag: "Sommer Nacht",
-    poster: "events/20260711_disco_sommer_nacht.webp",
-    description: "Genieße am 11. Juli eine Disco Sommer Nacht wie du sie früher hattest! DJ DUSCHKO sorgt mit Sommer Hits für Stimmung🪩",
-    ticketLink: ""
-  },
-  {
     id: "2026-08-18-zwettler-rasen-open",
     title: "Zwettler Rasen Open",
     date: "18.07.2026",
@@ -50,6 +38,18 @@ const UPCOMING_EVENTS = [
 ];
 
 const PAST_EVENTS = [
+  {
+    id: "2026-07-11-disco-sommer-nacht",
+    title: "Disco Sommer Nacht",
+    date: "11.07.2026",
+    dateSort: "2026-07-11",
+    time: "21:00 Uhr",
+    dj: "DJ SCHMUCKI",
+    tag: "Sommer Nacht",
+    poster: "events/20260711_disco_sommer_nacht.webp",
+    description: "Genieße am 11. Juli eine Disco Sommer Nacht wie du sie früher hattest! DJ DUSCHKO sorgt mit Sommer Hits für Stimmung🪩",
+    ticketLink: ""
+  },
   {
     id: "2026-06-27-italo-disco-night",
     title: "Italo Disco Night",
