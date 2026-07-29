@@ -23,6 +23,10 @@
 */
 
 const UPCOMING_EVENTS = [
+  
+];
+
+const PAST_EVENTS = [
   {
     id: "2026-08-18-zwettler-rasen-open",
     title: "Zwettler Rasen Open",
@@ -34,10 +38,7 @@ const UPCOMING_EVENTS = [
     poster: "events/20260718_zwettler_rasen_open.webp",
     description: "DJ Nik van P. bringt Urlaubsfeeling ab 21.00 Uhr ins ATRIUM! Einlass ab 20.00 Uhr - Eintritt FREI! Kommt und tanzt wie die jungen RÖMER!",
     ticketLink: ""
-  }
-];
-
-const PAST_EVENTS = [
+  },
   {
     id: "2026-07-11-disco-sommer-nacht",
     title: "Disco Sommer Nacht",
