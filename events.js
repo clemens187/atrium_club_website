@@ -34,6 +34,18 @@ const UPCOMING_EVENTS = [
     poster: "events/20260905_summer_recap.webp",
     description: "Der Sommer geht zu Ende - aber eine letzte Nacht gehört noch uns! Egal ob du deine Ferien noch einmal richtig ausklingen lassen willst oder einfach mit deinen Freunden einen unvergesslichen Abend erleben möchtest, das SUMMER RECAP ist der perfekte Start in den Schulbeginn. SPECIAL: Die ersten 50 Gäste bekommen ein GRATIS GETRÄNK!🍹",
     ticketLink: ""
+  },
+  {
+    id: "2026-09-12-country-night",
+    title: "Country Night",
+    date: "12.09.2026",
+    dateSort: "2026-09-12",
+    time: "21:00 Uhr",
+    dj: "DJ ROB VAN ED",
+    tag: "Country",
+    poster: "events/20260912_country_night.webp",
+    description: "DJ ROB VAN ED wird diesmal Country-Musik auflegen. Erstmalig und mit einer guten Stimmung lasst uns gemeinsam, im Western-Look, feiern!🎶",
+    ticketLink: ""
   }
 ];
 
