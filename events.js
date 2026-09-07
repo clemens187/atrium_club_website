@@ -23,18 +23,7 @@
 */
 
 const UPCOMING_EVENTS = [
-  {
-    id: "2026-09-05-summer-recap",
-    title: "Atrium Summer Recap",
-    date: "05.09.2026",
-    dateSort: "2026-09-05",
-    time: "21:00 Uhr",
-    dj: "MDP, DJ HIPP",
-    tag: "2010er",
-    poster: "events/20260905_summer_recap.webp",
-    description: "Der Sommer geht zu Ende - aber eine letzte Nacht gehört noch uns! Egal ob du deine Ferien noch einmal richtig ausklingen lassen willst oder einfach mit deinen Freunden einen unvergesslichen Abend erleben möchtest, das SUMMER RECAP ist der perfekte Start in den Schulbeginn. SPECIAL: Die ersten 50 Gäste bekommen ein GRATIS GETRÄNK!🍹",
-    ticketLink: ""
-  },
+  
   {
     id: "2026-09-12-country-night",
     title: "Country Night",
@@ -50,6 +39,18 @@ const UPCOMING_EVENTS = [
 ];
 
 const PAST_EVENTS = [
+  {
+    id: "2026-09-05-summer-recap",
+    title: "Atrium Summer Recap",
+    date: "05.09.2026",
+    dateSort: "2026-09-05",
+    time: "21:00 Uhr",
+    dj: "MDP, DJ HIPP",
+    tag: "2010er",
+    poster: "events/20260905_summer_recap.webp",
+    description: "Der Sommer geht zu Ende - aber eine letzte Nacht gehört noch uns! Egal ob du deine Ferien noch einmal richtig ausklingen lassen willst oder einfach mit deinen Freunden einen unvergesslichen Abend erleben möchtest, das SUMMER RECAP ist der perfekte Start in den Schulbeginn. SPECIAL: Die ersten 50 Gäste bekommen ein GRATIS GETRÄNK!🍹",
+    ticketLink: ""
+  },
   {
     id: "2026-08-18-zwettler-rasen-open",
     title: "Zwettler Rasen Open",
