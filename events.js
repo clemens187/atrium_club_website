@@ -23,7 +23,21 @@
 */
 
 const UPCOMING_EVENTS = [
-  
+  {
+    id: "2026-09-26-disco-dance-night",
+    title: "Disco Dance Night",
+    date: "26.09.2026",
+    dateSort: "2026-09-26",
+    time: "20:00 Uhr",
+    dj: "DJ NikVanP.",
+    tag: "Disco",
+    poster: "events/20260926_disco_dance_night.webp",
+    description: "Am 26. September findet ab 20:00 Uhr die Disco Dance-Night mir DJ NikVanP. statt. Das perfekte Event für dich und deine Freunde!🎶",
+    ticketLink: ""
+  }
+];
+
+const PAST_EVENTS = [
   {
     id: "2026-09-12-country-night",
     title: "Country Night",
@@ -35,10 +49,7 @@ const UPCOMING_EVENTS = [
     poster: "events/20260912_country_night.webp",
     description: "DJ ROB VAN ED wird diesmal Country-Musik auflegen. Erstmalig und mit einer guten Stimmung lasst uns gemeinsam, im Western-Look, feiern!🎶",
     ticketLink: ""
-  }
-];
-
-const PAST_EVENTS = [
+  },
   {
     id: "2026-09-05-summer-recap",
     title: "Atrium Summer Recap",
