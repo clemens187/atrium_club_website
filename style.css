@@ -345,7 +345,53 @@ section{
   color:var(--muted);
   max-width:38em;
   margin-bottom:1.5rem;
+  white-space: pre-line;
+  max-height: 150px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-right: 8px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--accent) transparent;
 }
+
+/* Chrome, Edge, Safari Webkit Scrollbar*/
+.next-card-desc::-webkit-scrollbar {
+  width: 5px;
+}
+
+.next-card-desc::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.next-card-desc::-webkit-scrollbar-thumb {
+  background: var(--accent);
+  border-radius: 10px;
+}
+
+.next-card-desc::-webkit-scrollbar-thumb:hover {
+  background: var(--accent);
+}
+
+.modal-desc::-webkit-scrollbar {
+  width: 5px;
+}
+
+.modal-desc::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.modal-desc::-webkit-scrollbar-thumb {
+  background: var(--accent);
+  border-radius: 10px;
+}
+
+.modal-desc::-webkit-scrollbar-thumb:hover {
+  background: var(--accent);
+}
+
+
+
+
 .next-card-link{
   font-family:var(--font-mono);
   font-size:0.8rem;
@@ -773,7 +819,17 @@ section{
 }
 .modal-meta strong{ color:var(--text); display:block; font-size:0.7rem; letter-spacing:0.15em; text-transform:uppercase; margin-bottom:0.3rem; color:var(--muted); }
 .modal-meta span{ color:var(--text); font-size:0.95rem; }
-.modal-desc{ color:var(--muted); margin-bottom:1.75rem; }
+.modal-desc{ 
+  color:var(--muted); 
+  margin-bottom:1.75rem; 
+  white-space: pre-line;
+  max-height: 150px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-right: 8px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--accent) transparent;
+}
 .modal-past-badge{
   display:inline-block;
   font-family:var(--font-mono);

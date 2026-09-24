@@ -24,6 +24,21 @@
 
 const UPCOMING_EVENTS = [
   {
+    id: "2026-10-10-oktoberfest",
+    title: "Atrium Oktoberfest",
+    date: "10.10.2026",
+    dateSort: "2026-10-10",
+    time: "21:00 Uhr",
+    dj: "Après-Ski-DJ JACKO",
+    tag: "Oktoberfest",
+    poster: "events/20261010_oktoberfest.webp",
+    description: "O’zapft is! 🥨🔥\n\nAm 10.10. heißt’s: Dirndl an, Lederhose raus und ab auf die Tanzfläche! 💃🕺\n\nFreut euch auf eine unvergessliche Oktoberfest-Nacht mit fetten Beats, bester Stimmung und jeder Menge Wiesn-Vibes! 🎶🍺\n\n📍 Atrium Club: 3910 Zwettl, Neuer Markt 18\n📅 Datum: 10.10.\n🔞 Eintritt: ab 16 Jahren\n🪩 DJ: @dj.jackoaustria\n\nPack deine Crew ein und feier mit uns eine legendäre Nacht! ❤️‍🔥",
+    ticketLink: ""
+  }
+];
+
+const PAST_EVENTS = [
+  {
     id: "2026-09-26-disco-dance-night",
     title: "Disco Dance Night",
     date: "26.09.2026",
@@ -34,10 +49,7 @@ const UPCOMING_EVENTS = [
     poster: "events/20260926_disco_dance_night.webp",
     description: "Am 26. September findet ab 20:00 Uhr die Disco Dance-Night mir DJ NikVanP. statt. Das perfekte Event für dich und deine Freunde!🎶",
     ticketLink: ""
-  }
-];
-
-const PAST_EVENTS = [
+  },
   {
     id: "2026-09-12-country-night",
     title: "Country Night",
