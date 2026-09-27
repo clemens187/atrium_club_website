@@ -24,18 +24,6 @@
 
 const UPCOMING_EVENTS = [
   {
-    id: "2026-09-26-disco-dance-night",
-    title: "Disco Dance Night",
-    date: "26.09.2026",
-    dateSort: "2026-09-26",
-    time: "20:00 Uhr",
-    dj: "DJ NikVanP.",
-    tag: "Disco",
-    poster: "events/20260926_disco_dance_night.webp",
-    description: "Am 26. September findet ab 20:00 Uhr die Disco Dance-Night mir DJ NikVanP. statt. Das perfekte Event für dich und deine Freunde!🎶",
-    ticketLink: ""
-  },
-  {
     id: "2026-10-10-oktoberfest",
     title: "Atrium Oktoberfest",
     date: "10.10.2026",
@@ -50,6 +38,18 @@ const UPCOMING_EVENTS = [
 ];
 
 const PAST_EVENTS = [
+  {
+    id: "2026-09-26-disco-dance-night",
+    title: "Disco Dance Night",
+    date: "26.09.2026",
+    dateSort: "2026-09-26",
+    time: "20:00 Uhr",
+    dj: "DJ NikVanP.",
+    tag: "Disco",
+    poster: "events/20260926_disco_dance_night.webp",
+    description: "Am 26. September findet ab 20:00 Uhr die Disco Dance-Night mir DJ NikVanP. statt. Das perfekte Event für dich und deine Freunde!🎶",
+    ticketLink: ""
+  },
   {
     id: "2026-09-12-country-night",
     title: "Country Night",
