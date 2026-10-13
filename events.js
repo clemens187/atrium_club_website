@@ -25,6 +25,21 @@
 const UPCOMING_EVENTS = [
   {
     id: "2026-10-10-oktoberfest",
+    title: "Schlager-Disco + FOX-Nacht",
+    date: "17.10.2026",
+    dateSort: "2026-10-17",
+    time: "21:00 Uhr",
+    dj: "DJ CHRIS",
+    tag: "Schlager",
+    poster: "events/20261017_schlager_disco.webp",
+    description: "🎉🔥 Diesen Samstag: SCHLAGER-DISCO + FOX-NACHT im ATRIUM CLUB! 🔥🎉\n\n🪩💃 Macht euch bereit für eine unvergessliche Partynacht voller Schlagerhits, Discofeeling und den besten Songs aus den 80ern, 90ern & 2000ern! 🕺✨\n\n📅 Samstag, 17. Oktober\n\n⏰ Ab 21:00 Uhr\n\n🎧 Mit DJ CHRIS\n\n📍 Atrium Club – Neuer Markt 18, 3910 Zwettl\n\nOb Discofox auf der Tanzfläche, Mitsingen bei euren Lieblingsschlagern oder Feiern zu den größten Partyklassikern, heute Nacht ist für jeden etwas dabei! 🥳❤️\n\n🍻 Kein Vorverkauf – Abendkasse!\n\n👉 Schnappt euch eure Freunde und Freundinnen und feiert mit uns eine legendäre Partynacht! Wir sehen uns auf der Tanzfläche! 🔥",
+    ticketLink: ""
+  }
+];
+
+const PAST_EVENTS = [
+  {
+    id: "2026-10-10-oktoberfest",
     title: "Atrium Oktoberfest",
     date: "10.10.2026",
     dateSort: "2026-10-10",
@@ -34,10 +49,7 @@ const UPCOMING_EVENTS = [
     poster: "events/20261010_oktoberfest.webp",
     description: "O’zapft is! 🥨🔥\n\nAm 10.10. heißt’s: Dirndl an, Lederhose raus und ab auf die Tanzfläche! 💃🕺\n\nFreut euch auf eine unvergessliche Oktoberfest-Nacht mit fetten Beats, bester Stimmung und jeder Menge Wiesn-Vibes! 🎶🍺\n\n📍 Atrium Club: 3910 Zwettl, Neuer Markt 18\n📅 Datum: 10.10.\n🔞 Eintritt: ab 16 Jahren\n🪩 DJ: @dj.jackoaustria\n\nPack deine Crew ein und feier mit uns eine legendäre Nacht! ❤️‍🔥",
     ticketLink: ""
-  }
-];
-
-const PAST_EVENTS = [
+  },
   {
     id: "2026-09-26-disco-dance-night",
     title: "Disco Dance Night",
