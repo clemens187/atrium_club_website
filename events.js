@@ -25,6 +25,21 @@
 const UPCOMING_EVENTS = [
   {
     id: "2026-10-10-oktoberfest",
+    title: "KI Disco-Fox Night",
+    date: "14.11.2026",
+    dateSort: "2026-11-14",
+    time: "21:00 Uhr",
+    dj: "DJ SCHMUCKI",
+    tag: "Disco-Fox",
+    poster: "events/20261114_ki_disco_fox_night.webp",
+    description: "🪩🔥 **KI DISCO-FOX NIGHT im ATRIUM CLUB!** 🔥🪩\n\n💃🕺 Tanzschuhe an und ab auf die Tanzfläche! Am **Samstag, 14. November**, heißt es bei uns: Fox tanzen, feiern und die Nacht genießen! 🎶❤️\n\n🎧 **DJ SCHMUCK** sorgt für den perfekten Sound und jede Menge Disco-Fox-Vibes! 🔥\n\n📅 **Samstag, 14.11.**\n\n🕘 Beginn: 21:00 Uhr\n\n📍 Atrium Club – Neuer Markt 18, 3910 Zwettl\n\n🎟️ Kein Vorverkauf – Abendkasse\n\nSchnapp dir deine Tanzpartnerin oder deinen Tanzpartner und feiere mit uns eine unvergessliche Partynacht! 🥳✨\n\n👉 **Markiere deine Tanzcrew und sei dabei!** 💥",
+    ticketLink: ""
+  }
+];
+
+const PAST_EVENTS = [
+  {
+    id: "2026-10-10-oktoberfest",
     title: "Schlager-Disco + FOX-Nacht",
     date: "17.10.2026",
     dateSort: "2026-10-17",
@@ -34,10 +49,7 @@ const UPCOMING_EVENTS = [
     poster: "events/20261017_schlager_disco.webp",
     description: "🎉🔥 Diesen Samstag: SCHLAGER-DISCO + FOX-NACHT im ATRIUM CLUB! 🔥🎉\n\n🪩💃 Macht euch bereit für eine unvergessliche Partynacht voller Schlagerhits, Discofeeling und den besten Songs aus den 80ern, 90ern & 2000ern! 🕺✨\n\n📅 Samstag, 17. Oktober\n\n⏰ Ab 21:00 Uhr\n\n🎧 Mit DJ CHRIS\n\n📍 Atrium Club – Neuer Markt 18, 3910 Zwettl\n\nOb Discofox auf der Tanzfläche, Mitsingen bei euren Lieblingsschlagern oder Feiern zu den größten Partyklassikern, heute Nacht ist für jeden etwas dabei! 🥳❤️\n\n🍻 Kein Vorverkauf – Abendkasse!\n\n👉 Schnappt euch eure Freunde und Freundinnen und feiert mit uns eine legendäre Partynacht! Wir sehen uns auf der Tanzfläche! 🔥",
     ticketLink: ""
-  }
-];
-
-const PAST_EVENTS = [
+  },
   {
     id: "2026-10-10-oktoberfest",
     title: "Atrium Oktoberfest",
