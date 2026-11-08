@@ -24,7 +24,7 @@
 
 const UPCOMING_EVENTS = [
   {
-    id: "2026-10-10-oktoberfest",
+    id: "2026-11-14-ki-disco-fox-night",
     title: "KI Disco-Fox Night",
     date: "14.11.2026",
     dateSort: "2026-11-14",
@@ -33,6 +33,18 @@ const UPCOMING_EVENTS = [
     tag: "Disco-Fox",
     poster: "events/20261114_ki_disco_fox_night.webp",
     description: "🪩🔥 **KI DISCO-FOX NIGHT im ATRIUM CLUB!** 🔥🪩\n\n💃🕺 Tanzschuhe an und ab auf die Tanzfläche! Am **Samstag, 14. November**, heißt es bei uns: Fox tanzen, feiern und die Nacht genießen! 🎶❤️\n\n🎧 **DJ SCHMUCK** sorgt für den perfekten Sound und jede Menge Disco-Fox-Vibes! 🔥\n\n📅 **Samstag, 14.11.**\n\n🕘 Beginn: 21:00 Uhr\n\n📍 Atrium Club – Neuer Markt 18, 3910 Zwettl\n\n🎟️ Kein Vorverkauf – Abendkasse\n\nSchnapp dir deine Tanzpartnerin oder deinen Tanzpartner und feiere mit uns eine unvergessliche Partynacht! 🥳✨\n\n👉 **Markiere deine Tanzcrew und sei dabei!** 💥",
+    ticketLink: ""
+  },
+  {
+    id: "2026-12-05-krampus",
+    title: "Fröschl-Exil-Revival",
+    date: "05.12.2026",
+    dateSort: "2026-12-05",
+    time: "21:00 Uhr",
+    dj: "DJ π",
+    tag: "Krampus",
+    poster: "events/20261205_krampus_event.webp",
+    description: "😈🔥 ER IST WIEDER HIER – KRAMPUS & DJ π IM ATRIUM CLUB! 🔥😈\n\nDer Krampus ist los und diesmal wird nicht nur erschreckt, sondern ordentlich gefeiert! 👹🪩\n\nAm Samstag, 05. Dezember, erwartet euch eine höllisch gute Partynacht mit heißen Sounds und jeder Menge Stimmung! 🔥\n\n🎧 DJ π sorgt für den richtigen Sound beim legendären FRÖSCHL – EXIL – REVIVAL! ❤️‍🔥\n\n📅 Samstag, 05.12.2026\n\n🕘 Ab 21:00 Uhr\n\n📍 Atrium Club – Neuer Markt 18, 3910 Zwettl\n\n🎟️ Abendkasse – BAR\n\n👹 Seid dabei, wenn der Krampus das Atrium übernimmt!\n\nMarkiert eure Freunde, schnappt euch eure Partycrew und macht euch bereit für eine legendäre Nacht! 😈🍻\n\nWER IST DABEI?! 🔥",
     ticketLink: ""
   }
 ];
