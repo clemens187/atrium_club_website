@@ -36,6 +36,18 @@ const UPCOMING_EVENTS = [
     ticketLink: ""
   },
   {
+    id: "2026-11-28-disco-dance-night",
+    title: "DISCO-DANCE NIGHT",
+    date: "28.11.2026",
+    dateSort: "2026-11-28",
+    time: "21:00 Uhr",
+    dj: "DJ NIKVANP.",
+    tag: "Disco-Dance Night",
+    poster: "events/20261128_disco_Dance_night.webp",
+    description: "🪩🔥 DISCO-DANCE NIGHT im ATRIUM CLUB! 🔥💃\n\nDie Tanzfläche ruft und wir liefern den passenden Sound! 🎶✨\n\nAm Samstag, 28. November, verwandelt sich das Atrium wieder in die heißeste Partylocation in Zwettl! ❤️‍🔥\n\n🎧 DJ NIKVANP. sorgt für coole Beats, volle Tanzflächen und beste Partystimmung bis in die Nacht! 🕺\n\n📅 Samstag, 28.11.\n\n🕘 Ab 21:00 Uhr\n\n📍 Atrium Club – Neuer Markt 18, 3910 Zwettl\n\n🎟️ Kein Vorverkauf – Abendkasse\n\n🍹 BAR geöffnet!\n\nSchnappt euch eure Freunde, lasst den Alltag hinter euch und feiert mit uns eine unvergessliche Disco-Nacht! 🥳\n\n🔥 Wer ist bereit für eine volle Tanzfläche?",
+    ticketLink: ""
+  },
+  {
     id: "2026-12-05-krampus",
     title: "Fröschl-Exil-Revival",
     date: "05.12.2026",
